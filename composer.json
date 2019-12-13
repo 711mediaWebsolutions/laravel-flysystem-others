@@ -7,11 +7,17 @@
         "name": "Daniel Hunsaker",
         "email": "danhunsaker@gmail.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:711mediaWebsolutions/laravel-flysystem-service.git"
+        }
+    ],
     "require": {
         "illuminate/support": "^5.0 || ^6.0",
         "illuminate/filesystem": "^5.0 || ^6.0",
         "league/flysystem": "^1.0",
-        "danhunsaker/laravel-flysystem-service": "^1.1"
+        "danhunsaker/laravel-flysystem-service": "dev-laravel-6"
     },
     "suggest": {
         "aliyuncs/aliyun-oss-flysystem": "One of the options to use the 'oss' adapter (^1.2)",
